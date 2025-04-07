@@ -1,19 +1,47 @@
 {
-  "name": "ccfe2",
-  "version": "1.0.0",
-  "description": "��#\u0000 \u0000C\u0000E\u0000N\u0000_\u00005\u00000\u00003\u00005\u0000-\u0000S\u0000p\u0000r\u0000i\u0000n\u0000g\u00002\u00005\u0000",
-  "main": "server.js",
+  "name": "carbon-tracking-system",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/krissaine/ccfe2.git"
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^19.2.5",
+    "@angular/cdk": "^19.2.2",
+    "@angular/common": "^19.2.5",
+    "@angular/compiler": "^19.2.5",
+    "@angular/core": "^19.2.5",
+    "@angular/forms": "^19.2.5",
+    "@angular/material": "^19.2.2",
+    "@angular/platform-browser": "^19.2.5",
+    "@angular/platform-browser-dynamic": "^19.2.5",
+    "@angular/router": "^19.2.5",
+    "@coreui/angular": "~5.3.16",
+    "@coreui/coreui": "~5.2.0",
+    "@coreui/icons-angular": "~5.3.15",
+    "@popperjs/core": "~2.11.8",
+    "angular": "^1.6.10",
+    "carbon-tracking-system": "file:",
+    "cors": "^2.8.5",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.15.0"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/krissaine/ccfe2/issues"
-  },
-  "homepage": "https://github.com/krissaine/ccfe2#readme"
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^19.2.1",
+    "@angular/cli": "^19.2.6",
+    "@angular/compiler-cli": "^19.2.5",
+    "@types/jasmine": "~5.1.0",
+    "jasmine-core": "~5.6.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.7.2"
+  }
 }
