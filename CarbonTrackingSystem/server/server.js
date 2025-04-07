@@ -13,6 +13,8 @@ mongoose.connect(process.env.MONGODB_URI).then(() => {
   console.error('Error connecting to MongoDB:', err);
 });
 
+app.use(express.static(path.join(__dirname, 'dist/carbon-tracking-system')));
+
 
 app.listen(PORT, () => {
   console.log(`Server listening at http://localhost:${PORT}`);
